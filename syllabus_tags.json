@@ -1,0 +1,22 @@
+{
+  "generated_from": "syllabus.pdf",
+  "tags": [
+    "The basics of measure theory",
+    "Measurable functions",
+    "Integration",
+    "Differentiation and integration",
+    "Product meaures",
+    "Differentiation of measures",
+    "The Riesz representation theorem on Lp, 1 \u2264 p < \u221e, the Riesz-Markov theorem (dual of Cc), the Riesz-Thorin interpolation theorem",
+    "Hilbert spaces",
+    "Banach spaces",
+    "Topological spaces",
+    "Locally convex spaces",
+    "Distributions",
+    "Bounded operators on Banach spaces",
+    "Compact operators on Banach spaces",
+    "Fourier series on T = R/(2\u03c0Z)",
+    "Fourier transform on Rn"
+  ],
+  "total_tags": 16
+}

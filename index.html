@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagged Problems Repository</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Filter by Tags</h2>
+            <div class="tag-controls">
+                <button id="selectAll">Select All</button>
+                <button id="clearAll">Clear All</button>
+            </div>
+            <div id="tagList" class="tag-list"></div>
+        </div>
+        
+        <div class="main-content">
+            <h1>Real Analysis Qualifying Exam Problems</h1>
+            <div class="problem-stats">
+                <span id="problemCount">0 problems</span>
+                <span id="selectedTagsCount">0 tags selected</span>
+            </div>
+            <div id="problemList" class="problem-list"></div>
+        </div>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
